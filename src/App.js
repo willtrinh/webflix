@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default function App() {
-  return <div>{2 + 5}</div>;
+  return <h1>Hello World</h1>;
 }
