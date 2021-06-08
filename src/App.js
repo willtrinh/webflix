@@ -9,6 +9,15 @@ export default function App() {
       <Route exact path={ROUTES.HOME}>
         <Home />
       </Route>
+      <Route exact path="/signup">
+        <SignUp />
+      </Route>
+      <Route exact path="/signin">
+        <SignIn />
+      </Route>
+      <Route exact path="/browse">
+        <Browse />
+      </Route>
     </Router>
   );
 }
