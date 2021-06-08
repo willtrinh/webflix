@@ -37,11 +37,15 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   height: 70px;
-  background: none;
+  background: linear-gradient(
+    90deg,
+    rgba(229, 9, 20, 1) 0%,
+    rgba(82, 124, 231, 1) 100%
+  );
   color: white;
   padding: 0 32px;
   font-size: 26px;
-  border: 2px solid #f40612;
+  border: 0;
   border-radius: 2px;
   cursor: pointer;
   img {
