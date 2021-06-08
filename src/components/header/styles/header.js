@@ -6,12 +6,12 @@ export const Background = styled.div`
   flex-direction: column;
   background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.35),
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.35)
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
     ),
     url(${({ src }) =>
-        src ? `../images/misc/${src}.jpg` : '../images/misc/home-bg.jpg'})
+        src ? `../images/misc/${src}.jpg` : '../images/misc/home-bg2.jpg'})
       top left / cover no-repeat;
   @media (max-width: 1100px) {
     ${({ dontShowOnSmallViewPort }) =>
@@ -203,11 +203,11 @@ export const Text = styled.p`
 `;
 
 export const Logo = styled.img`
-  height: 36px;
+  height: auto;
   width: 134px;
   margin-right: 40px;
   @media (min-width: 1449px) {
-    height: 45px;
+    height: auto;
     width: 167px;
   }
 `;

@@ -21,7 +21,7 @@ export const Input = styled.input`
   box-sizing: border-box;
   &:focus::placeholder {
     position: absolute;
-    font-size: 14px;
+    font-size: 16px;
     top: 2px;
     color: red;
     transition: 0.25s all;
