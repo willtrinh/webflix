@@ -15,6 +15,10 @@ export const Inner = styled.div`
   flex-direction: column;
   max-width: 815px;
   margin: auto;
+  @media (max-width: 600px) {
+    padding: 0;
+    margin: 0;
+  }
 `;
 
 export const Title = styled.h1`
@@ -56,24 +60,28 @@ export const Header = styled.div`
   align-items: center;
   img {
     filter: brightness(0) invert(1);
-    width: 24px;
+    width: 1em;
     user-select: none;
     @media (max-width: 600px) {
-      width: 16px;
+      width: 18px;
     }
   }
   @media (max-width: 600px) {
-    font-size: 16px;
+    font-size: 18px;
+  }
+  &:hover {
+    color: #e50914;
+    transition: 0.25s;
   }
 `;
 
 export const Body = styled.div`
-  font-size: 18px;
+  font-size: 26px;
   font-weight: normal;
   line-height: normal;
   background: #303030;
   white-space: pre-wrap;
-  padding: 1.2em;
+  user-select: none;
   overflow: hidden;
   &.closed {
     max-height: 0;
