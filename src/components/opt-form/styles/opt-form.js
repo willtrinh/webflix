@@ -30,12 +30,12 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   height: 70px;
-  background: #e50914;
+  background: none;
   color: white;
-  text-transform: uppercase;
   padding: 0 32px;
   font-size: 26px;
-  border: 0;
+  border: 2px solid #f40612;
+  border-radius: 2px;
   cursor: pointer;
   img {
     margin-left: 10px;
@@ -47,9 +47,10 @@ export const Button = styled.button`
   }
   &:hover {
     background: #f40612;
+    transition: 0.25s;
   }
   @media (max-width: 1000px) {
-    height: 50px;
+    height: 70px;
     font-size: 16px;
     margin-top: 20px;
     font-weight: bold;
