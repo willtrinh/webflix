@@ -7,7 +7,9 @@ export function HeaderContainer({ children }) {
     <Header>
       <Header.Frame>
         <Header.Logo to={ROUTES.HOME} alt="Home" src={logo} />
-        <Header.ButtonLink to={ROUTES.SIGN_IN}>Sign In</Header.ButtonLink>
+        {window.location.pathname === '/' ? (
+          <Header.ButtonLink to={ROUTES.SIGN_IN}>Sign In</Header.ButtonLink>
+        ) : null}
       </Header.Frame>
       {children}
     </Header>

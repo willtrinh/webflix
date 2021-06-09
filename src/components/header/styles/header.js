@@ -6,9 +6,9 @@ export const Background = styled.div`
   flex-direction: column;
   background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.75),
-      rgba(0, 0, 0, 0.75),
-      rgba(0, 0, 0, 0.75)
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
     ),
     url(${({ src }) =>
         src ? `../images/misc/${src}.jpg` : '../images/misc/home-bg2.jpg'})
@@ -106,6 +106,7 @@ export const ButtonLink = styled(ReachRouterLink)`
     rgba(82, 124, 231, 1) 100%
   );
   width: 84px;
+  justify-content: center;
   height: fit-content;
   color: white;
   border: 0;
