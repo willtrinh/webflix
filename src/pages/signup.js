@@ -21,12 +21,19 @@ export default function SignUp() {
     // authentication
     firebase
       .auth()
-      .signInWithEmailAndPassword(email, password)
-      .then(() => {
-        // push to browse page
-        history.push(ROUTES.BROWSE);
-      })
+      .createUserWithEmailAndPassword(email, password)
+      .then((result) =>
+        result.user
+          .updateProfile({
+            displayName: firstName,
+            photoURL: Math.floor(Math.random() * 5) + 1,
+          })
+          .then(() => {
+            history.push(ROUTES.BROWSE);
+          })
+      )
       .catch((error) => {
+        setFirstName('');
         setEmail('');
         setPassword('');
         setError(error.message);
