@@ -37,6 +37,7 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   height: 70px;
+  transition: background-color 0.5s ease;
   background: linear-gradient(
     90deg,
     rgba(229, 9, 20, 1) 0%,
@@ -58,7 +59,6 @@ export const Button = styled.button`
   }
   &:hover {
     background: #f40612;
-    transition: 0.25s;
   }
   @media (max-width: 1000px) {
     height: 70px;

@@ -78,6 +78,7 @@ export const Submit = styled.button`
     rgba(229, 9, 20, 1) 0%,
     rgba(82, 124, 231, 1) 100%
   );
+  transition: background-color 0.5s ease;
   border-radius: 4px;
   font-size: 16px;
   font-weight: bold;
@@ -92,6 +93,5 @@ export const Submit = styled.button`
   }
   &:hover {
     background: #f40612;
-    transition: 0.5s;
   }
 `;

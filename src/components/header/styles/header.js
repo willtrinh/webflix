@@ -229,7 +229,11 @@ export const PlayButton = styled.button`
   cursor: pointer;
   transition: background-color 0.5s ease;
   &:hover {
-    background-color: #ff1e1e;
+    background: linear-gradient(
+      90deg,
+      rgba(229, 9, 20, 1) 0%,
+      rgba(82, 124, 231, 1) 100%
+    );
     color: white;
   }
 `;
