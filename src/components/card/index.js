@@ -9,6 +9,7 @@ import {
   Entities,
   Item,
   Image,
+  Content,
   Feature,
   FeatureTitle,
   FeatureText,
