@@ -227,8 +227,10 @@ export const PlayButton = styled.button`
   font-size: 20px;
   margin-top: 10px;
   cursor: pointer;
-  transition: background-color 0.5s ease;
+  transition: transform 0.2s;
   &:hover {
+    transform: scale(1.3);
+    z-index: 99;
     background: linear-gradient(
       90deg,
       rgba(229, 9, 20, 1) 0%,
