@@ -36,6 +36,8 @@ export const Container = styled.div`
 export const Link = styled.p`
   color: #fff;
   text-decoration: none;
+  align-items: center;
+
   margin-right: 30px;
   font-weight: ${({ active }) => (active === 'true' ? '700' : 'normal')};
   cursor: pointer;
