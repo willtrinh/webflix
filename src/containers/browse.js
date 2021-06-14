@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import { SelectProfileContainer } from './profiles';
 import { FooterContainer } from './footer';
 import { FirebaseContext } from '../contexts/firebase';
-import { Card, Loading, Header } from '../components';
+import { Card, Loading, Header, Player } from '../components';
 import * as ROUTES from '../constants/routes';
 import logo from '../logo.png';
 
@@ -76,9 +76,13 @@ export function BrowseContainer({ slides }) {
             he projects in a futile attempt to feel like he's part of the world
             around him.
           </Header.Text>
-          <Header.PlayButton>Play</Header.PlayButton>
+          <Player>
+            <Player.Button />
+            <Player.Video src="/videos/joker.mp4" />
+          </Player>
         </Header.Feature>
       </Header>
+
       <Card.Group>
         {slideRows.map((slideItem) => (
           <Card key={`${category}-${slideItem.title.toLowerCase()}`}>
@@ -97,11 +101,10 @@ export function BrowseContainer({ slides }) {
               ))}
             </Card.Entities>
             <Card.Feature category={category}>
-              {/* <Player>
+              <Player>
                 <Player.Button />
-                <Player.Video src="/videos/bunny.mp4" />
-              </Player> */}
-              yo
+                <Player.Video src="/videos/joker.mp4" />
+              </Player>
             </Card.Feature>
           </Card>
         ))}

@@ -58,22 +58,26 @@ export const Close = styled.button`
 `;
 
 export const Button = styled.button`
-  background-color: #e50914;
-  border-color: #ff0a16;
-  width: 115px;
-  height: 45px;
-  text-transform: uppercase;
+  box-shadow: 0 0.6vw 1vw -0.4vw rgba(0, 0, 0, 0.35);
+  background-color: #e6e6e6;
+  color: #000;
+  border-width: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 113px;
   font-weight: bold;
-  color: white;
-  font-size: 18px;
-  height: 45px;
+  font-size: 20px;
+  margin-top: 10px;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 0;
+  transition: transform 0.2s;
   &:hover {
-    transform: scale(1.05);
-    background-color: #ff0a16;
+    transform: scale(1.3);
+    z-index: 99;
+    background: linear-gradient(
+      90deg,
+      rgba(229, 9, 20, 1) 0%,
+      rgba(82, 124, 231, 1) 100%
+    );
+    color: white;
   }
 `;
