@@ -33,7 +33,6 @@
         <li>
       <a href="#features">Features</a>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
   </ol>
@@ -64,9 +63,9 @@ Webflix is my attempt at mimicking the Netflix UI layout with basic functionalit
 
 ### Sign up & Sign in (using Firebase Auth)
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/willtrinh/webflix/master/public/readme/signup.gif" width="450"/><img src="https://raw.githubusercontent.com/willtrinh/webflix/master/public/readme/signin.gif" width="450"/>
-</div>
+|                                         Sign up                                          |                                         Sign in                                          |
+| :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
+| ![](https://raw.githubusercontent.com/willtrinh/webflix/master/public/readme/signup.gif) | ![](https://raw.githubusercontent.com/willtrinh/webflix/master/public/readme/signin.gif) |
 
 ### Browse Page
 
