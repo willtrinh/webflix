@@ -63,9 +63,9 @@ Webflix is my attempt at mimicking the Netflix UI layout with basic functionalit
 
 ### Sign up & Sign in (using Firebase Auth)
 
-|                                         Sign up                                          |                                         Sign in                                          |
-| :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
-| ![](https://raw.githubusercontent.com/willtrinh/webflix/master/public/readme/signup.gif) | ![](https://raw.githubusercontent.com/willtrinh/webflix/master/public/readme/signin.gif) |
+|                                            Sign up                                             |                                            Sign in                                             |
+| :--------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
+| ![signup](https://raw.githubusercontent.com/willtrinh/webflix/master/public/readme/signup.gif) | ![signin](https://raw.githubusercontent.com/willtrinh/webflix/master/public/readme/signin.gif) |
 
 ### Browse Page
 
