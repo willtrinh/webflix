@@ -69,11 +69,11 @@ Webflix is my attempt at mimicking the Netflix UI layout with basic functionalit
 
 ### Browse Page
 
-![Webflix Home](https://raw.githubusercontent.com/willtrinh/webflix/master/public/readme/browse-page.gif)
+![browse](https://raw.githubusercontent.com/willtrinh/webflix/master/public/readme/browse.gif)
 
 ### Browse Page (Mobile-view)
 
-![Webflix Home](https://raw.githubusercontent.com/willtrinh/webflix/master/public/readme/browse-mobile.gif)
+![browse-mobile](https://raw.githubusercontent.com/willtrinh/webflix/master/public/readme/browse-mobile.gif)
 
 <!-- ROADMAP -->
 
